@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/bg10000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rating_for_youngster">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feedback Form"
+
+            android:id="@+id/feedbackform"
+            android:textSize="30dp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_margin="50dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview"
+            android:text="Rate Youngster for his overall enthusiasm for reciving support"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp"
+            />
+        <RatingBar
+            android:id="@+id/ratingbar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progressTint="#FFFF00" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The ability to foster positive interactions with you"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:padding="10dp"
+            />
+
+        <RatingBar
+            android:id="@+id/ratingbar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progressTint="#FFFF00" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Commitment to work and listen to your words"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:padding="10dp"
+            />
+
+        <RatingBar
+            android:id="@+id/ratingbar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progressTint="#FFFF00" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How Easily they learn"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:padding="10dp"
+            />
+
+        <RatingBar
+            android:id="@+id/ratingbar4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progressTint="#FFFF00" />
+
+        <Button
+            android:id="@+id/Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+            android:text="Submit"
+            android:padding="5dp"
+            />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
